@@ -1,0 +1,28 @@
+.red {
+  color: red;
+}
+.tabbar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  .item {
+    flex: 1;
+  }
+  .img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+$color: #fc4545;
+.SFoot {
+  padding-bottom: 48px;
+}
+
